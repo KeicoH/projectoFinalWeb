@@ -37,6 +37,22 @@
         <e p="App_Start" t="Include">
           <e p="RouteConfig.cs" t="Include" />
         </e>
+        <e p="Areas" t="Include">
+          <e p="security" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="SecurityController.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include" />
+            <e p="securityAreaRegistration.cs" t="Include" />
+            <e p="Views" t="Include">
+              <e p="security" t="Include">
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="Shared" t="Include" />
+              <e p="web.config" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include" />
         <e p="Global.asax" t="Include" />
