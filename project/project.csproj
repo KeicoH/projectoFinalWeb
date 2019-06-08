@@ -88,13 +88,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-      <Content Include="Areas\security\Views\SecurityController_\Index.cshtml"/>
+      <Content Include="Areas\security\Views\Security\Index.cshtml"/>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-      <Compile Include="Areas\security\Controllers\SecurityController}.cs"/>
+      <Compile Include="Areas\security\Controllers\SecurityController.cs"/>
     <Compile Include="Areas\security\securityAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
