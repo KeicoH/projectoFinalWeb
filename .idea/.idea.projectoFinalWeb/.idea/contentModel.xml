@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\JOSE\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\JOSE\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_projectoFinalWeb.1645150348.00" t="ExcludeRecursive" />
+    <e p="C:\Users\JOSE\Documents\Visual Studio 2017\Projects\projectoFinalWeb" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive">
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\csc.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\csc.exe.config" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\csc.rsp" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\csi.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\csi.rsp" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.Build.Tasks.CodeAnalysis.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.CodeAnalysis.CSharp.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.CodeAnalysis.CSharp.Scripting.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.CodeAnalysis.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.CodeAnalysis.Scripting.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.CodeAnalysis.VisualBasic.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.CSharp.Core.targets" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.DiaSymReader.Native.amd64.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.DiaSymReader.Native.x86.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\Microsoft.VisualBasic.Core.targets" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\System.AppContext.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\System.Collections.Immutable.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\System.Diagnostics.StackTrace.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\System.IO.FileSystem.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\System.IO.FileSystem.Primitives.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\System.Reflection.Metadata.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\vbc.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\vbc.exe.config" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\vbc.rsp" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\VBCSCompiler.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.1.3.2\tools\VBCSCompiler.exe.config" t="Include" />
+      </e>
+      <e p="project" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include" />
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Models" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="project.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="roslyn" t="Include" />
+        <e p="Views" t="Include">
+          <e p="web.config" t="Include" />
+        </e>
+        <e p="web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="projectoFinalWeb.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
