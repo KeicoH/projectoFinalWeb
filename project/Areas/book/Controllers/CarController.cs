@@ -12,7 +12,6 @@ namespace project.Areas.book.Controllers
 
         public ActionResult List()
         {
-            // Todo eee
             return View();
         }
     }
