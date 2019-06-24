@@ -88,10 +88,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\book\Views\Car\Index.cshtml" />
-    <Content Include="Areas\book\Views\Car\List.cshtml" />
-    <Content Include="Areas\book\Views\Flight\Index.cshtml" />
-    <Content Include="Areas\book\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\security\Assets\css\main.css" />
     <Content Include="Areas\security\Assets\css\util.css" />
     <Content Include="Areas\security\Assets\fonts\font-awesome-4.7.0\css\font-awesome.css" />
@@ -198,14 +194,25 @@
     <Content Include="Areas\security\Assets\vendor\tilt\tilt.jquery.min.js" />
     <Content Include="Areas\security\Views\Security\Index.cshtml" />
     <Content Include="Areas\security\Views\Shared\_Layout.cshtml" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\booking\Views\Car\Index.cshtml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Areas\book\bookAreaRegistration.cs" />
-    <Compile Include="Areas\book\Controllers\CarController.cs" />
-    <Compile Include="Areas\book\Controllers\FlightController.cs" />
+    <Compile Include="Areas\booking\bookingAreaRegistration.cs" />
+    <Compile Include="Areas\booking\Controllers\CarController.cs" />
+    <Compile Include="Areas\booking\Controllers\FlightController.cs" />
     <Compile Include="Areas\security\Controllers\SecurityController.cs" />
     <Compile Include="Areas\security\securityAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
@@ -217,7 +224,14 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Areas\security\Views\web.config" />
-    <Content Include="Areas\book\Views\web.config" />
+    <Content Include="Areas\booking\Views\web.config" />
+    <Content Include="Areas\booking\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\booking\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\booking\Views\Flight\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -227,12 +241,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\book\Controllers\" />
-    <Folder Include="Areas\book\Models\" />
-    <Folder Include="Areas\book\Views\Shared\" />
-    <Folder Include="Areas\security\Assets\js" />
+    <Folder Include="Areas\booking\Models\" />
+    <Folder Include="Areas\security\Assets\js\" />
     <Folder Include="Areas\security\Models\" />
-    <Folder Include="Areas\security\Views\Shared\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
