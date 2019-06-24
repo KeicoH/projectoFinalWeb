@@ -1,22 +1,22 @@
 ﻿using System.Web.Mvc;
 
-namespace project.Areas.book
+namespace project.Areas.booking
 {
-    public class bookAreaRegistration : AreaRegistration 
+    public class bookingAreaRegistration : AreaRegistration 
     {
         public override string AreaName 
         {
             get 
             {
-                return "book";
+                return "booking";
             }
         }
 
         public override void RegisterArea(AreaRegistrationContext context) 
         {
             context.MapRoute(
-                "book_default",
-                "book/{controller}/{action}/{id}",
+                "booking_default",
+                "booking/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional }
             );
         }
