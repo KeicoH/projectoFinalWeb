@@ -2074,6 +2074,7 @@
     <Folder Include="Areas\security\Assets\js\" />
     <Folder Include="Areas\security\Models\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Models" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
